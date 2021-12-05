@@ -30,6 +30,18 @@
            sync-j="4"
            revision="refs/heads/11.0" />
 
+  <remote  name="gianogli"
+           fetch="https://github.com/gianogli/"
+           sync-c="true"
+           sync-j="4"
+           revision="cr7_lavender" />
+
+  <remote  name="stormbreaker"
+           fetch="https://github.com/stormbreaker-project/"
+           sync-c="true"
+           sync-j="4"
+           revision="oldcam-eas" />
+
   <!-- AOSP Projects -->
 
   <!--<project path="build/make" name="LineageOS/android_build" groups="pdk" >
@@ -789,6 +801,7 @@
 
   <include name="snippets/crdroid.xml" />
   <include name="snippets/lineage.xml" />
+  <include name="snippets/lavender.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
