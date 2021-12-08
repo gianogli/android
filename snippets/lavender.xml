@@ -49,6 +49,7 @@
   <!-- <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" /> -->
 
   <!-- Xiaomi lavender - Extra -->
+  <project path="device/xiaomi/extras" name="android_device_xiaomi_extras" remote="gianogli" />
   <!-- <project path="packages/apps/GoogleCamera" name="android_vendor_GoogleCamera" remote="gianogli" /> -->
 
 </manifest>
