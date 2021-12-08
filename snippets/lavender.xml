@@ -31,7 +31,7 @@
   <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="gianogli" />
 
   <!-- Xiaomi lavender - Kernel -->
-  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_lavender" remote="stormbreaker" />
+  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_lavender" remote="gianogli" />
 
   <!-- Xiaomi lavender - Qualcomm Vendor -->
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="gianogli" />
