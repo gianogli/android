@@ -30,18 +30,18 @@
   <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_display_msm8998" remote="gianogli" />
 
   <!-- Change Qualcomm Vendor Project -->
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,waipio-vendor" />
-  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="gianogli"/>
-  <!--<remove-project name="LineageOS/android_vendor_qcom_opensource_healthd-ext" groups="qcom,pdk-qcom" />-->
-  <!--<project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="gianogli"/>-->
+  <!-- <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,waipio-vendor" /> -->
+  <!-- <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="gianogli"/> -->
+  <!-- <remove-project name="LineageOS/android_vendor_qcom_opensource_healthd-ext" groups="qcom,pdk-qcom" /> -->
+  <!-- <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="gianogli"/> -->
 
   <!-- Xiaomi lavender - Device -->
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="gianogli" />
-  <!--<project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="gianogli" />-->
+  <!-- <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="gianogli" /> -->
 
   <!-- Xiaomi lavender - Vendor -->
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="gianogli" />
-  <!--<project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="gianogli" />-->
+  <!-- <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="gianogli" /> -->
 
   <!-- Xiaomi lavender - Kernel -->
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="gianogli" />
