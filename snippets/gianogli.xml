@@ -19,4 +19,20 @@
   <remove-project name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" />
   <project path="vendor/crDroidOTA" name="android_vendor_crDroidOTA" remote="gianogli" />
 
+  <!-- Change Qualcomm Hardware Project -->
+  <remove-project name="LineageOS/android_hardware_qcom_wlan" groups="qcom,waipio-vendor" revision="lineage-20.0-caf" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan_msm8998" groups="qcom_wlan,pdk-qcom" remote="gianogli" />
+  <remove-project name="LineageOS/android_hardware_qcom_audio" groups="qcom,legacy-qcom" revision="lineage-20.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_audio_msm8998" remote="gianogli" />
+  <remove-project name="LineageOS/android_hardware_qcom_media" groups="qcom,legacy-qcom" revision="lineage-20.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_media_msm8998" remote="gianogli" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" groups="qcom,legacy-qcom" revision="lineage-20.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_display_msm8998" remote="gianogli" />
+
+  <!-- Change Qualcomm Vendor Project -->
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,waipio-vendor" />
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="gianogli"/>
+  <!--<remove-project name="LineageOS/android_vendor_qcom_opensource_healthd-ext" groups="qcom,pdk-qcom" />-->
+  <!--<project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="gianogli"/>-->
+
 </manifest>
