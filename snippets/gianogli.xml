@@ -46,5 +46,7 @@
   <!-- Xiaomi lavender - Kernel -->
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="gianogli" />
 
+  <!-- Xiaomi lavender - Extra -->
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="gianogli" />
 
 </manifest>
