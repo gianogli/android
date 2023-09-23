@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="gianogli"
+           fetch="https://github.com/gianogli/"
+           sync-c="true"
+           sync-j="4"
+           revision="cr9_lavender" />
+
+  <!-- Changed crDroid Projects -->
+  <remove-project name="crdroidandroid/android" remote="crdroid" />
+  <project path="android" name="android" remote="gianogli" />
+  <remove-project name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
+  <project path="vendor/lineage" name="android_vendor_crdroid" remote="gianogli" />
+  <remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
+  <project path="packages/apps/crDroidSettings" name="android_packages_apps_crDroidSettings" remote="gianogli" />
+  <remove-project name="crdroidandroid/android_packages_apps_Updater" remote="crdroid" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="gianogli" />
+  <remove-project name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" />
+  <project path="vendor/crDroidOTA" name="android_vendor_crDroidOTA" remote="gianogli" />
+
+</manifest>
